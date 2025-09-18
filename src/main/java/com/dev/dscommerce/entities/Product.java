@@ -20,6 +20,7 @@ public class Product {
 
     private Double price;
 
+    @Column(name = "img_url")
     private String imgUrl;
 
     @ManyToMany
